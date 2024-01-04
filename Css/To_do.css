@@ -1,0 +1,38 @@
+/* To_do.css */
+.todo-container {
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+  background:linear-gradient(45deg, #ffcc00, #ff9900);
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(17, 16, 16, 0.1);
+  border:5px solid gray
+}
+
+.todo-heading {
+  text-align: center;
+  color: purple;
+}
+
+.todo-form {
+  margin-bottom: 20px;
+}
+
+.todo-input {
+  border-radius: 4px 0 0 4px;
+}
+
+.todo-button {
+  border-radius: 0 4px 4px 0;
+}
+
+.todo-table {
+  width: 100%;
+  background-color: #ffffff;
+}
+
+.todo-edit-button,
+.todo-delete-button {
+  font-size: 0.8rem;
+  margin-right: 5px; /* Add margin between Edit and Delete buttons */
+}
